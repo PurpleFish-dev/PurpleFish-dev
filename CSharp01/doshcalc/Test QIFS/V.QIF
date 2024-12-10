@@ -1,0 +1,634 @@
+!Type:Bank 
+D8/31/09
+U3,804.52
+T3,804.52
+CX
+POpening Balance
+L[Leaseholders Funds (HSBC)]
+^
+D1/4/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D1/5/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D1/5/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D1/5/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D1/7/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D1/20/10
+U-62.00
+T-62.00
+CX
+PEDF 7020
+LMaint.:Electric
+^
+D1/20/10
+U-63.00
+T-63.00
+CX
+PEDF 3026
+LMaint.:Electric
+^
+D1/22/10
+U50.00
+T50.00
+CX
+L[Flat 2, Andy Boothman]
+^
+D2/1/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D2/5/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D2/5/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D2/5/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D2/5/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D2/9/10
+U50.00
+T50.00
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D3/1/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D3/5/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D3/5/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D3/5/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D3/5/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D3/29/10
+U-1,550.50
+T-1,550.50
+CX
+PVail Insurance
+LMaint.:Insurance
+^
+D4/1/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D4/6/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D4/6/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D4/6/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D4/6/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D5/4/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D5/5/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D5/5/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D5/5/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D5/5/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D5/12/10
+U150.00
+T150.00
+CX
+L[Flat 7, Neil Prebble]
+S[Flat 7, Neil Prebble]
+$50.00
+S[Flat 4, Long & Ebeling]
+$50.00
+S[Flat 1, Myres and Simmonds]
+$50.00
+^
+D6/1/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D6/7/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D6/7/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D6/7/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D6/7/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D7/1/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D7/5/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D7/5/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D7/5/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D7/5/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D7/21/10
+U-65.93
+T-65.93
+CX
+PEDF
+LMaint.:Electric
+^
+D8/2/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D8/5/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D8/5/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D8/5/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D8/5/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D9/1/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D9/2/10
+U-65.93
+T-65.93
+CX
+PEDF
+LMaint.:Electric
+^
+D9/6/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D9/6/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D9/6/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D9/6/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D9/24/10
+U1,735.06
+T1,735.06
+CX
+L[Flat 5, Ellen Gray]
+^
+D10/1/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D10/5/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D10/5/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D10/5/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D10/5/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D11/1/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D11/5/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D11/5/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D11/5/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D11/5/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D12/1/10
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D12/6/10
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D12/6/10
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D12/6/10
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D12/6/10
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D1/4/11
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D1/5/11
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D1/5/11
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D1/5/11
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D1/5/11
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D1/7/11
+U-60.55
+T-60.55
+CX
+PEDF
+LMaint.:Electric
+^
+D1/14/11
+U-204.25
+T-204.25
+CX
+PThe Waring Partnership
+LAssigned Mgmt. Exp:Professional Fees
+^
+D1/29/11
+U257.52
+T257.52
+CX
+L[Flat 5, Ellen Gray]
+^
+D2/1/11
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D2/2/11
+U51.88
+T51.88
+CX
+L[Flat 5, Ellen Gray]
+^
+D2/7/11
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D2/7/11
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D2/7/11
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D2/7/11
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D2/24/11
+U205.64
+T205.64
+CX
+L[Flat 5, Ellen Gray]
+^
+D3/1/11
+U51.88
+T51.88
+CX
+L[Flat 5, Ellen Gray]
+^
+D3/1/11
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D3/1/11
+U-205.64
+T-205.64
+CX
+L[Flat 5, Ellen Gray]
+^
+D3/2/11
+U-26.13
+T-26.13
+CX
+PEDF
+LMaint.:Electric
+^
+D3/2/11
+U-33.45
+T-33.45
+CX
+PEDF
+LMaint.:Electric
+^
+D3/7/11
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D3/7/11
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D3/7/11
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D3/7/11
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D3/23/11
+U-1,672.02
+T-1,672.02
+CX
+PVail Insurance
+LMaint.:Insurance
+^
+D3/24/11
+U100.00
+T100.00
+CX
+^
+D4/1/11
+U51.88
+T51.88
+CX
+L[Flat 5, Ellen Gray]
+^
+D4/1/11
+U49.00
+T49.00
+CX
+L[Flat 7, Neil Prebble]
+^
+D4/5/11
+U53.32
+T53.32
+CX
+L[Flat 3, Mr G N Johnston]
+^
+D4/5/11
+U60.96
+T60.96
+CX
+L[Flat 4, Long & Ebeling]
+^
+D4/5/11
+U62.96
+T62.96
+CX
+L[Flat 2, Andy Boothman]
+^
+D4/5/11
+U65.84
+T65.84
+CX
+L[Flat 1, Myres and Simmonds]
+^
+D4/10/12
+U666.00
+T666.00
+LAssigned Mgmt. Charge:Flat 6
+^

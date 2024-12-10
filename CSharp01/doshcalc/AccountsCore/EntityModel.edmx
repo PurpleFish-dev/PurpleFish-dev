@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="AccountsDBModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="AccountsDBModelStoreContainer">
+          <EntitySet Name="tblAccounts" EntityType="AccountsDBModel.Store.tblAccounts" store:Type="Tables" />
+          <EntitySet Name="tblCatagorys" EntityType="AccountsDBModel.Store.tblCatagorys" store:Type="Tables" />
+          <EntitySet Name="tblEntres" EntityType="AccountsDBModel.Store.tblEntres" store:Type="Tables" />
+          <EntitySet Name="tblGroups" EntityType="AccountsDBModel.Store.tblGroups" store:Type="Tables" />
+          <EntitySet Name="tblPayees" EntityType="AccountsDBModel.Store.tblPayees" store:Type="Tables" />
+          <EntitySet Name="tblPropertes" EntityType="AccountsDBModel.Store.tblPropertes" store:Type="Tables" />
+          <EntitySet Name="tblTaxCodes" EntityType="AccountsDBModel.Store.tblTaxCodes" store:Type="Tables" />
+          <EntitySet Name="tblTtest01" EntityType="AccountsDBModel.Store.tblTtest01" store:Type="Tables" />
+          <AssociationSet Name="FK__tblEntres__0000000000000077" Association="AccountsDBModel.Store.FK__tblEntres__0000000000000077">
+            <End Role="tblPayees" EntitySet="tblPayees" />
+            <End Role="tblEntres" EntitySet="tblEntres" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="tblAccounts">
+          <Key>
+            <PropertyRef Name="AccountId" />
+          </Key>
+          <Property Name="AccountId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="80" />
+          <Property Name="Ownership" Type="nvarchar" Nullable="false" MaxLength="12" />
+          <Property Name="Type" Type="nvarchar" Nullable="false" MaxLength="12" />
+          <Property Name="Hidden" Type="bit" Nullable="false" />
+          <Property Name="LockedUntil" Type="datetime" Nullable="false" />
+          <Property Name="ReconciledOn" Type="datetime" Nullable="false" />
+          <Property Name="Lock" Type="nvarchar" Nullable="false" MaxLength="12" />
+        </EntityType>
+        <EntityType Name="tblCatagorys">
+          <Key>
+            <PropertyRef Name="CatagoryId" />
+          </Key>
+          <Property Name="CatagoryId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="80" />
+          <Property Name="Obsolete" Type="bit" Nullable="false" />
+          <Property Name="System" Type="bit" Nullable="false" />
+          <Property Name="income" Type="bit" Nullable="false" />
+          <Property Name="PropertySpecific" Type="bit" Nullable="false" />
+          <Property Name="GroupId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TaxCodeId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblEntres">
+          <Key>
+            <PropertyRef Name="EntryId" />
+          </Key>
+          <Property Name="EntryId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="AccountId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" Nullable="false" MaxLength="80" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="RecieptNo" Type="nvarchar" Nullable="false" MaxLength="80" />
+          <Property Name="Amount" Type="numeric" Nullable="false" />
+          <Property Name="PayeeId" Type="uniqueidentifier" />
+          <Property Name="CatagoryId" Type="uniqueidentifier" />
+          <Property Name="PropertyId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TransferAccountId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblGroups">
+          <Key>
+            <PropertyRef Name="GroupId" />
+          </Key>
+          <Property Name="GroupId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="80" />
+          <Property Name="Obsolete" Type="bit" Nullable="false" />
+          <Property Name="System" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblPayees">
+          <Key>
+            <PropertyRef Name="PayeeId" />
+          </Key>
+          <Property Name="PayeeId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="80" />
+          <Property Name="Obsolete" Type="bit" Nullable="false" />
+          <Property Name="System" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblPropertes">
+          <Key>
+            <PropertyRef Name="PropertyId" />
+          </Key>
+          <Property Name="PropertyId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="80" />
+          <Property Name="Obsolete" Type="bit" Nullable="false" />
+          <Property Name="System" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblTaxCodes">
+          <Key>
+            <PropertyRef Name="TaxCodeId" />
+          </Key>
+          <Property Name="TaxCodeId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="80" />
+          <Property Name="Obsolete" Type="bit" Nullable="false" />
+          <Property Name="System" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblTtest01">
+          <Key>
+            <PropertyRef Name="TaxCodeId" />
+          </Key>
+          <Property Name="TaxCodeId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="80" />
+          <Property Name="Obsolete" Type="bit" Nullable="false" />
+          <Property Name="System" Type="bit" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__tblEntres__0000000000000077">
+          <End Role="tblPayees" Type="AccountsDBModel.Store.tblPayees" Multiplicity="0..1" />
+          <End Role="tblEntres" Type="AccountsDBModel.Store.tblEntres" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tblPayees">
+              <PropertyRef Name="PayeeId" />
+            </Principal>
+            <Dependent Role="tblEntres">
+              <PropertyRef Name="PayeeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AccountsDBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="AccountsDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="efPayees" EntityType="AccountsDBModel.efPayee" />
+          <EntitySet Name="efCatagories" EntityType="AccountsDBModel.efCatagory" />
+          <EntitySet Name="tblEntres" EntityType="AccountsDBModel.tblEntre" />
+          <EntitySet Name="tblGroups" EntityType="AccountsDBModel.tblGroup" />
+          <AssociationSet Name="AAA" Association="AccountsDBModel.AAA">
+            <End Role="efPayee" EntitySet="efPayees" />
+            <End Role="tblEntre" EntitySet="tblEntres" />
+          </AssociationSet>
+          <EntitySet Name="tblAccounts" EntityType="AccountsDBModel.tblAccount" />
+          <EntitySet Name="tblPropertes" EntityType="AccountsDBModel.tblProperte" />
+          <EntitySet Name="tblTaxCodes" EntityType="AccountsDBModel.tblTaxCode" />
+          <EntitySet Name="tblTtest01" EntityType="AccountsDBModel.tblTtest01" />
+        </EntityContainer>
+        <EntityType Name="efPayee">
+          <Key>
+            <PropertyRef Name="PayeeId" />
+          </Key>
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="Obsolete" Nullable="false" />
+          <Property Type="Boolean" Name="System" Nullable="false" />
+          <Property Type="Guid" Name="PayeeId" Nullable="false" />
+          <NavigationProperty Name="tblEntres" Relationship="AccountsDBModel.AAA" FromRole="efPayee" ToRole="tblEntre" />
+        </EntityType>
+        <EntityType Name="efCatagory">
+          <Key>
+            <PropertyRef Name="CatagoryId" />
+          </Key>
+          <Property Type="Guid" Name="CatagoryId" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="income" Nullable="false" />
+          <Property Type="Boolean" Name="PropertySpecific" Nullable="false" />
+          <Property Type="Guid" Name="GroupId" Nullable="false" />
+          <Property Type="Guid" Name="TaxCodeId" Nullable="false" />
+          <Property Type="Boolean" Name="Obsolete" Nullable="false" />
+          <Property Type="Boolean" Name="System" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblEntre">
+          <Key>
+            <PropertyRef Name="EntryId" />
+          </Key>
+          <Property Type="Guid" Name="EntryId" Nullable="false" />
+          <Property Type="String" Name="Description" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="Date" Nullable="false" />
+          <Property Type="String" Name="RecieptNo" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Decimal" Name="Amount" Nullable="false" Precision="18" Scale="0" />
+          <Property Type="Guid" Name="PayeeId" Nullable="false" />
+          <Property Type="Guid" Name="CatagoryId" Nullable="false" />
+          <Property Type="Guid" Name="PropertyId" Nullable="false" />
+          <Property Type="Guid" Name="TransferAccountId" Nullable="false" />
+          <NavigationProperty Name="tblPayee" Relationship="AccountsDBModel.AAA" FromRole="tblEntre" ToRole="efPayee" />
+          <Property Type="Guid" Name="AccountId" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblGroup">
+          <Key>
+            <PropertyRef Name="GroupId" />
+          </Key>
+          <Property Type="Guid" Name="GroupId" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="Obsolete" Nullable="false" />
+          <Property Type="Boolean" Name="System" Nullable="false" />
+        </EntityType>
+        <Association Name="AAA">
+          <End Type="AccountsDBModel.efPayee" Role="efPayee" Multiplicity="1" />
+          <End Type="AccountsDBModel.tblEntre" Role="tblEntre" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="efPayee">
+              <PropertyRef Name="PayeeId" />
+            </Principal>
+            <Dependent Role="tblEntre">
+              <PropertyRef Name="PayeeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="tblAccount">
+          <Key>
+            <PropertyRef Name="AccountId" />
+          </Key>
+          <Property Type="Guid" Name="AccountId" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Ownership" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Type" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="Hidden" Nullable="false" />
+          <Property Type="DateTime" Name="LockedUntil" Nullable="false" />
+          <Property Type="DateTime" Name="ReconciledOn" Nullable="false" />
+          <Property Type="String" Name="Lock" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="tblProperte">
+          <Key>
+            <PropertyRef Name="PropertyId" />
+          </Key>
+          <Property Type="Guid" Name="PropertyId" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="Obsolete" Nullable="false" />
+          <Property Type="Boolean" Name="System" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblTaxCode">
+          <Key>
+            <PropertyRef Name="TaxCodeId" />
+          </Key>
+          <Property Type="Guid" Name="TaxCodeId" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="Obsolete" Nullable="false" />
+          <Property Type="Boolean" Name="System" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tblTtest01">
+          <Key>
+            <PropertyRef Name="TaxCodeId" />
+          </Key>
+          <Property Type="Guid" Name="TaxCodeId" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="80" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="Obsolete" Nullable="false" />
+          <Property Type="Boolean" Name="System" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AccountsDBModelStoreContainer" CdmEntityContainer="AccountsDBEntities">
+          <EntitySetMapping Name="efPayees">
+            <EntityTypeMapping TypeName="AccountsDBModel.efPayee">
+              <MappingFragment StoreEntitySet="tblPayees">
+                <ScalarProperty Name="PayeeId" ColumnName="PayeeId" />
+                <ScalarProperty Name="System" ColumnName="System" />
+                <ScalarProperty Name="Obsolete" ColumnName="Obsolete" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="efCatagories">
+            <EntityTypeMapping TypeName="AccountsDBModel.efCatagory">
+              <MappingFragment StoreEntitySet="tblCatagorys">
+                <ScalarProperty Name="System" ColumnName="System" />
+                <ScalarProperty Name="Obsolete" ColumnName="Obsolete" />
+                <ScalarProperty Name="TaxCodeId" ColumnName="TaxCodeId" />
+                <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+                <ScalarProperty Name="PropertySpecific" ColumnName="PropertySpecific" />
+                <ScalarProperty Name="income" ColumnName="income" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CatagoryId" ColumnName="CatagoryId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblEntres">
+            <EntityTypeMapping TypeName="AccountsDBModel.tblEntre">
+              <MappingFragment StoreEntitySet="tblEntres">
+                <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+                <ScalarProperty Name="TransferAccountId" ColumnName="TransferAccountId" />
+                <ScalarProperty Name="PropertyId" ColumnName="PropertyId" />
+                <ScalarProperty Name="CatagoryId" ColumnName="CatagoryId" />
+                <ScalarProperty Name="PayeeId" ColumnName="PayeeId" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="RecieptNo" ColumnName="RecieptNo" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="EntryId" ColumnName="EntryId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblGroups">
+            <EntityTypeMapping TypeName="AccountsDBModel.tblGroup">
+              <MappingFragment StoreEntitySet="tblGroups">
+                <ScalarProperty Name="System" ColumnName="System" />
+                <ScalarProperty Name="Obsolete" ColumnName="Obsolete" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblAccounts">
+            <EntityTypeMapping TypeName="AccountsDBModel.tblAccount">
+              <MappingFragment StoreEntitySet="tblAccounts">
+                <ScalarProperty Name="Lock" ColumnName="Lock" />
+                <ScalarProperty Name="ReconciledOn" ColumnName="ReconciledOn" />
+                <ScalarProperty Name="LockedUntil" ColumnName="LockedUntil" />
+                <ScalarProperty Name="Hidden" ColumnName="Hidden" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Ownership" ColumnName="Ownership" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblPropertes">
+            <EntityTypeMapping TypeName="AccountsDBModel.tblProperte">
+              <MappingFragment StoreEntitySet="tblPropertes">
+                <ScalarProperty Name="System" ColumnName="System" />
+                <ScalarProperty Name="Obsolete" ColumnName="Obsolete" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="PropertyId" ColumnName="PropertyId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblTaxCodes">
+            <EntityTypeMapping TypeName="AccountsDBModel.tblTaxCode">
+              <MappingFragment StoreEntitySet="tblTaxCodes">
+                <ScalarProperty Name="System" ColumnName="System" />
+                <ScalarProperty Name="Obsolete" ColumnName="Obsolete" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="TaxCodeId" ColumnName="TaxCodeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblTtest01">
+            <EntityTypeMapping TypeName="AccountsDBModel.tblTtest01">
+              <MappingFragment StoreEntitySet="tblTtest01">
+                <ScalarProperty Name="System" ColumnName="System" />
+                <ScalarProperty Name="Obsolete" ColumnName="Obsolete" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="TaxCodeId" ColumnName="TaxCodeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model1">
+        <EntityTypeShape EntityType="AccountsDBModel.efPayee" Width="1.5" PointX="0.75" PointY="0.75" Height="1.592306315104167" />
+        <EntityTypeShape EntityType="AccountsDBModel.efCatagory" Width="1.5" PointX="3.375" PointY="3.75" Height="1.9210009765624996" />
+        <EntityTypeShape EntityType="AccountsDBModel.tblEntre" Width="1.5" PointX="7" PointY="2.875" Height="2.5783902994791656" />
+        <EntityTypeShape EntityType="AccountsDBModel.tblGroup" Width="1.5" PointX="6.375" PointY="0.5" Height="1.2636116536458326" />
+        <AssociationConnector Association="AccountsDBModel.AAA" >
+          <ConnectorPoint PointX="2.25" PointY="2.4557299804687505" />
+          <ConnectorPoint PointX="8.21875" PointY="2.4557299804687505" />
+          <ConnectorPoint PointX="8.21875" PointY="2.875" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="AccountsDBModel.tblAccount" Width="1.5" PointX="9.125" PointY="0.625" Height="2.2496956380208317" />
+        <EntityTypeShape EntityType="AccountsDBModel.tblProperte" Width="2.125" PointX="3.375" PointY="0.75" Height="1.5923063151041674" />
+        <EntityTypeShape EntityType="AccountsDBModel.tblTaxCode" Width="1.5" PointX="0.75" PointY="3.75" Height="1.5923063151041674" />
+        <EntityTypeShape EntityType="AccountsDBModel.tblTtest01" Width="1.5" PointX="0.75" PointY="6.75" Height="1.5923063151041674" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

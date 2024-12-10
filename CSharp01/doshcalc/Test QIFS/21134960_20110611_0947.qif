@@ -1,0 +1,146 @@
+!Type:Bank
+D01/01/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/02/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/03/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/04/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/05/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/06/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/07/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/08/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/09/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/10/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/11/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D01/12/2008
+T1500
+LIncome.Salary
+PPaycheck
+^
+D15/04/2008
+T1500
+LIncome.Bonus
+PBonus Paycheck
+^
+D25/10/2008
+T4000
+LIncome.Bonus
+PBonus Paycheck
+^
+D09/03/2008
+T50
+LIncome.Gifts Received
+PGift from Grandma
+^
+D04/08/2008
+T150
+LIncome.Gifts Received
+PGift from Grandma
+^
+D10/10/2008
+T50
+LIncome.Gifts Received
+PGift from Grandma
+^
+D20/01/2008
+T-98
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D17/02/2008
+T-134
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D18/03/2008
+T-245
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D11/04/2008
+T-147
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D16/05/2008
+T-178
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D17/06/2008
+T-109
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D12/07/2008
+T-245
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D10/08/2008
+T-231
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D07/09/2008
+T-289
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D15/10/2008
+T-138
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D17/11/2008
+T-252
+LLiabilities.Credit Card
+PPayment to Credit Card
+^
+D10/12/2008
+T-335
+LLiabilities.Credit Card
+PPayment to Credit Card
+^

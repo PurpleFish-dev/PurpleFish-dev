@@ -1,0 +1,344 @@
+!Type:Cat
+NAssigned Mgmt. Charge
+I
+^
+NAssigned Mgmt. Charge:Flat 1
+I
+^
+NAssigned Mgmt. Charge:Flat 2
+I
+^
+NAssigned Mgmt. Charge:Flat 3
+I
+^
+NAssigned Mgmt. Charge:Flat 5
+I
+^
+NAssigned Mgmt. Charge:Flat 6
+I
+^
+NAssigned Mgmt. Charge:Flat 7
+I
+^
+NGround Rent Charge
+I
+^
+NInterest
+I
+^
+NMaintenance Charge
+I
+^
+NAssigned Mgmt. Exp
+E
+^
+NAssigned Mgmt. Exp:Professional Fees
+E
+^
+NAssigned Mgmt. Exp:to Freeholders
+E
+^
+NGeneral Mgmt. Exp
+E
+^
+NGround Rent. Exp
+E
+^
+NMaint.
+DElectrical
+E
+^
+NMaint.:Admin
+E
+^
+NMaint.:Electric
+E
+^
+NMaint.:Insurance
+E
+^
+!Option:AutoSwitch
+!Account
+NFlat 1, Myres and Simmonds
+TBank
+^
+NFlat 2, Andy Boothman
+TBank
+^
+NFlat 3, Mr G N Johnston
+TBank
+^
+NFlat 4, Long & Ebeling
+TBank
+^
+NFlat 5, Ellen Gray
+TBank
+^
+NFlat 6, Daniel Bennett
+TBank
+^
+NFlat 7, Neil Prebble
+TBank
+^
+NLeaseholders Funds (HSBC)
+TBank
+^
+!Clear:AutoSwitch
+!Account
+NFlat 5, Ellen Gray
+TBank
+^
+!Type:Bank 
+D1/1/10
+U1,091.89
+T1,091.89
+CX
+POpening Balance
+L[Flat 5, Ellen Gray]
+^
+D1/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D1/5/10
+U88.13
+T88.13
+PLegal Fees
+LAssigned Mgmt. Charge:Flat 5
+^
+D2/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D3/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D4/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D5/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D6/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D7/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D8/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D9/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D9/15/10
+U88.12
+T88.12
+PLegal Fees
+LAssigned Mgmt. Charge:Flat 5
+^
+D9/24/10
+U-1,735.06
+T-1,735.06
+NCheque
+L[Leaseholders Funds (HSBC)]
+^
+D10/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D11/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D12/5/10
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D12/24/10
+U50.00
+T50.00
+P01/01/10 - 31/12/10
+LGround Rent Charge
+^
+D1/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D1/29/11
+U-257.52
+T-257.52
+L[Leaseholders Funds (HSBC)]
+^
+D2/2/11
+U-51.88
+T-51.88
+L[Leaseholders Funds (HSBC)]
+^
+D2/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D2/24/11
+U-205.64
+T-205.64
+L[Leaseholders Funds (HSBC)]
+^
+D3/1/11
+U205.64
+T205.64
+L[Leaseholders Funds (HSBC)]
+^
+D3/1/11
+U-51.88
+T-51.88
+L[Leaseholders Funds (HSBC)]
+^
+D3/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D4/1/11
+U-51.88
+T-51.88
+L[Leaseholders Funds (HSBC)]
+^
+D4/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D5/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D6/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D7/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D8/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D9/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D10/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D11/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D12/5/11
+U51.88
+T51.88
+PFlat 5, (12.97% of £400)
+LMaintenance Charge
+^
+D12/24/11
+U50.00
+T50.00
+P01/01/11 - 31/12/11
+LGround Rent Charge
+^
+D1/5/12
+U51.88
+T51.88
+PFlat 5, Maintenance (12.97% of £400)
+LMaintenance Charge
+^
+D2/5/12
+U51.88
+T51.88
+PFlat 5, Maintenance (12.97% of £400)
+LMaintenance Charge
+^
+D3/5/12
+U51.88
+T51.88
+PFlat 5, Maintenance (12.97% of £400)
+LMaintenance Charge
+^
+D4/5/12
+U51.88
+T51.88
+PFlat 5, Maintenance (12.97% of £400)
+LMaintenance Charge
+^
+D5/5/12
+U51.88
+T51.88
+PFlat 5, Maintenance (12.97% of £400)
+LMaintenance Charge
+^
+D6/5/12
+U51.88
+T51.88
+PFlat 5, Maintenance (12.97% of £400)
+LMaintenance Charge
+^
+D7/5/12
+U51.88
+T51.88
+PFlat 5, Maintenance (12.97% of £400)
+LMaintenance Charge
+^

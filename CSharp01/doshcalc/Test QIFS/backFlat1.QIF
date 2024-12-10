@@ -1,0 +1,390 @@
+!Type:Cat
+NAssigned Mgmt. Charge
+I
+^
+NAssigned Mgmt. Charge:Flat 1
+I
+^
+NAssigned Mgmt. Charge:Flat 2
+I
+^
+NAssigned Mgmt. Charge:Flat 3
+I
+^
+NAssigned Mgmt. Charge:Flat 5
+I
+^
+NAssigned Mgmt. Charge:Flat 6
+I
+^
+NAssigned Mgmt. Charge:Flat 7
+I
+^
+NGround Rent Charge
+I
+^
+NInterest
+I
+^
+NMaintenance Charge
+I
+^
+NAssigned Mgmt. Exp
+E
+^
+NAssigned Mgmt. Exp:Professional Fees
+E
+^
+NAssigned Mgmt. Exp:to Freeholders
+E
+^
+NGeneral Mgmt. Exp
+E
+^
+NGround Rent. Exp
+E
+^
+NMaint.
+DElectrical
+E
+^
+NMaint.:Admin
+E
+^
+NMaint.:Electric
+E
+^
+NMaint.:Insurance
+E
+^
+!Option:AutoSwitch
+!Account
+NFlat 1, Myres and Simmonds
+TBank
+^
+NFlat 2, Andy Boothman
+TBank
+^
+NFlat 3, Mr G N Johnston
+TBank
+^
+NFlat 4, Long & Ebeling
+TBank
+^
+NFlat 5, Ellen Gray
+TBank
+^
+NFlat 6, Daniel Bennett
+TBank
+^
+NFlat 7, Neil Prebble
+TBank
+^
+NLeaseholders Funds (HSBC)
+TBank
+^
+!Clear:AutoSwitch
+!Account
+NFlat 1, Myres and Simmonds
+TBank
+^
+!Type:Bank 
+D1/1/10
+U425.49
+T425.49
+CX
+POpening Balance
+L[Flat 1, Myres and Simmonds]
+^
+D1/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D1/5/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D2/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D2/5/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D3/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D3/5/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D4/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D4/6/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D5/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D5/5/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D5/12/10
+U-50.00
+T-50.00
+NCheque
+L[Leaseholders Funds (HSBC)]
+^
+D6/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D6/7/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D7/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D7/5/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D8/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D8/5/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D9/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D9/6/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D10/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D10/5/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D11/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D11/5/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D12/5/10
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D12/6/10
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D12/24/10
+U50.00
+T50.00
+P01/01/10 - 31/12/10
+LGround Rent Charge
+^
+D1/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D1/5/11
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D2/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D2/7/11
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D3/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D3/7/11
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D4/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D4/5/11
+U-65.84
+T-65.84
+L[Leaseholders Funds (HSBC)]
+^
+D5/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D6/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D7/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D8/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D9/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D10/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D11/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D12/5/11
+U65.84
+T65.84
+PFlat 1, (16.46% of £400)
+LMaintenance Charge
+^
+D12/5/11
+U50.00
+T50.00
+PGround Rent - 24/12/11 for Year
+LGround Rent Charge
+^
+D12/24/11
+U50.00
+T50.00
+PGround Rent for current year
+LGround Rent Charge
+^
+D1/5/12
+U65.84
+T65.84
+NDEP
+PFlat 1, Maintenance (16.46% of £400)
+LMaintenance Charge
+^
+D2/5/12
+U65.84
+T65.84
+NDEP
+PFlat 1, Maintenance (16.46% of £400)
+LMaintenance Charge
+^
+D3/5/12
+U65.84
+T65.84
+PFlat 1, Maintenance (16.46% of £400)
+LMaintenance Charge
+^
+D4/5/12
+U65.84
+T65.84
+PFlat 1, Maintenance (16.46% of £400)
+LMaintenance Charge
+^
+D5/5/12
+U65.84
+T65.84
+PFlat 1, Maintenance (16.46% of £400)
+LMaintenance Charge
+^
+D6/5/12
+U65.84
+T65.84
+PFlat 1, Maintenance (16.46% of £400)
+LMaintenance Charge
+^
+D7/5/12
+U65.84
+T65.84
+PFlat 1, Maintenance (16.46% of £400)
+LMaintenance Charge
+^

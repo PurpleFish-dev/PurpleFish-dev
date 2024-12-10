@@ -1,0 +1,132 @@
+!Type:Cat
+NGr Sales
+DGross Sales
+T
+R4688
+I
+^
+NOther Inc
+DOther Income
+T
+I
+^
+NRent Income
+DRent Income
+T
+R5216
+I
+^
+NAds
+DAdvertising
+T
+R4864
+E
+^
+NBus. Insurance
+DInsurance (not health)
+T
+R4960
+E
+^
+NBus. Utilities
+DWater, Gas, Electric
+T
+R5088
+E
+^
+NBusiness Tax
+DTaxes & Licenses
+T
+R5056
+E
+^
+NCar
+DCar & Truck
+T
+R4896
+E
+^
+NCommission
+DCommissions
+T
+R4912
+E
+^
+NFreight
+DFreight
+T
+R4832
+E
+^
+NInt Paid
+DInterest Paid
+T
+R4992
+E
+^
+NL&P Fees
+DLegal & Prof. Fees
+T
+R4768
+E
+^
+NLate Fees
+DLate Payment Fees
+T
+R4832
+E
+^
+NMeals & Entertn
+DMeals & Entertainment
+T
+R4704
+E
+^
+NOffice
+DOffice Expenses
+T
+R5008
+E
+^
+NRent on Equip
+DRent-Vehicle,mach,equip
+T
+R4784
+E
+^
+NRent Paid
+DRent Paid
+T
+R4800
+E
+^
+NRepairs
+DRepairs
+T
+R5040
+E
+^
+NReturns
+DReturns & Allowances
+T
+R4736
+E
+^
+NSupplies, bus.
+DSupplies
+T
+R4816
+E
+^
+NTravel
+DTravel Expenses
+T
+R5072
+E
+^
+NWages
+DWages & Job Credits
+T
+R4752
+E
+^
