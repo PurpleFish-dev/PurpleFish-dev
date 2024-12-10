@@ -40,3 +40,7 @@ CSharp01/WindowsFormsControlLibrary1.pdb
 CSharp01/WindowsFormsControlLibrary2.dll
 
 CSharp01/WindowsFormsControlLibrary2.pdb
+
+CSharp01/doshcalc/.vs/
+
+*.vsidx
