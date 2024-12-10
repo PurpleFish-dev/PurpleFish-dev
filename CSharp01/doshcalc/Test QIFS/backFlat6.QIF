@@ -1,0 +1,324 @@
+!Type:Cat
+NAssigned Mgmt. Charge
+I
+^
+NAssigned Mgmt. Charge:Flat 1
+I
+^
+NAssigned Mgmt. Charge:Flat 2
+I
+^
+NAssigned Mgmt. Charge:Flat 3
+I
+^
+NAssigned Mgmt. Charge:Flat 5
+I
+^
+NAssigned Mgmt. Charge:Flat 6
+I
+^
+NAssigned Mgmt. Charge:Flat 7
+I
+^
+NGround Rent Charge
+I
+^
+NInterest
+I
+^
+NMaintenance Charge
+I
+^
+NAssigned Mgmt. Exp
+E
+^
+NAssigned Mgmt. Exp:Professional Fees
+E
+^
+NAssigned Mgmt. Exp:to Freeholders
+E
+^
+NGeneral Mgmt. Exp
+E
+^
+NGround Rent. Exp
+E
+^
+NMaint.
+DElectrical
+E
+^
+NMaint.:Admin
+E
+^
+NMaint.:Electric
+E
+^
+NMaint.:Insurance
+E
+^
+!Option:AutoSwitch
+!Account
+NFlat 1, Myres and Simmonds
+TBank
+^
+NFlat 2, Andy Boothman
+TBank
+^
+NFlat 3, Mr G N Johnston
+TBank
+^
+NFlat 4, Long & Ebeling
+TBank
+^
+NFlat 5, Ellen Gray
+TBank
+^
+NFlat 6, Daniel Bennett
+TBank
+^
+NFlat 7, Neil Prebble
+TBank
+^
+NLeaseholders Funds (HSBC)
+TBank
+^
+!Clear:AutoSwitch
+!Account
+NFlat 6, Daniel Bennett
+TBank
+^
+!Type:Bank 
+D1/1/10
+U89.10
+T89.10
+CX
+POpening Balance
+L[Flat 6, Daniel Bennett]
+^
+D1/1/10
+U-304.53
+T-304.53
+P01/01/09 - 31/12/09
+MManagement Charge - 01/01/09 - 31/12/09 £581.37 @ 10%
+LGeneral Mgmt. Exp
+^
+D1/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D2/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D3/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D4/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D5/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D6/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D7/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D8/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D9/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D10/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D11/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D12/5/10
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D12/24/10
+U50.00
+T50.00
+P01/01/10 - 31/12/10
+LGround Rent Charge
+^
+D12/31/10
+U-350.00
+T-350.00
+LGround Rent. Exp
+^
+D12/31/10
+U-20.00
+T-20.00
+LAssigned Mgmt. Exp
+^
+D1/1/11
+U-180.73
+T-180.73
+P01/01/10 - 31/12/10
+LGeneral Mgmt. Exp
+^
+D1/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D1/15/11
+U28.00
+T28.00
+LAssigned Mgmt. Charge:Flat 6
+^
+D2/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D3/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D4/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D5/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D6/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D7/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D8/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D9/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D10/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D11/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D12/5/11
+U56.04
+T56.04
+PFlat 6, (14.01% of £400)
+LMaintenance Charge
+^
+D12/24/11
+U50.00
+T50.00
+P01/01/11- 31/12/11
+LGround Rent Charge
+^
+D1/5/12
+U56.04
+T56.04
+PFlat 6, Maintenance (14.01% of £400)
+LMaintenance Charge
+^
+D2/5/12
+U56.04
+T56.04
+PFlat 6, Maintenance (14.01% of £400)
+LMaintenance Charge
+^
+D3/5/12
+U56.04
+T56.04
+PFlat 6, Maintenance (14.01% of £400)
+LMaintenance Charge
+^
+D4/5/12
+U56.04
+T56.04
+PFlat 6, Maintenance (14.01% of £400)
+LMaintenance Charge
+^
+D5/5/12
+U56.04
+T56.04
+PFlat 6, Maintenance (14.01% of £400)
+LMaintenance Charge
+^
+D6/5/12
+U56.04
+T56.04
+PFlat 6, Maintenance (14.01% of £400)
+LMaintenance Charge
+^
+D7/5/12
+U56.04
+T56.04
+PFlat 6, Maintenance (14.01% of £400)
+LMaintenance Charge
+^

@@ -1,0 +1,34 @@
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\AccountsApp01.csproj.AssemblyReference.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\Interop.AcroPDFLib.dll
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\AccountsApp01.csproj.ResolveComReference.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.CatagoryFrm.resources
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.AppForm.resources
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.FilterTest.resources
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.ImportWizardForm.resources
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\AccountsApp01.csproj.GenerateResource.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\AccountsApp01.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\AccountsApp01.csproj.CopyComplete
+C:\Users\Dan\Documents\Working\Personal\WindowsFormsApplication6.exe.config
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.exe
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.pdb
+C:\Users\Dan\Documents\Working\Personal\WindowsFormsApplication6.exe
+C:\Users\Dan\Documents\Working\Personal\WindowsFormsApplication6.pdb
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\AccountsApp01.csproj.AssemblyReference.cache
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\Interop.AcroPDFLib.dll
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\AccountsApp01.csproj.ResolveComReference.cache
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.CatagoryFrm.resources
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.AppForm.resources
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.FilterTest.resources
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.ImportWizardForm.resources
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\AccountsApp01.csproj.GenerateResource.cache
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\AccountsApp01.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.exe
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\WindowsFormsApplication6.pdb
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsApp01\obj\x86\Debug\AccountsApp01.csproj.CopyComplete
+C:\Users\Dan\Documents\Working\Personal - Copy\WindowsFormsApplication6.exe.config
+C:\Users\Dan\Documents\Working\Personal - Copy\WindowsFormsApplication6.exe
+C:\Users\Dan\Documents\Working\Personal - Copy\WindowsFormsApplication6.pdb

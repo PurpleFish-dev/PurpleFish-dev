@@ -1,0 +1,8 @@
+C:\Users\Dan\Documents\Working\Personal\doshcalc\GenericControls\bin\Debug\WindowsFormsControlLibrary2.dll
+C:\Users\Dan\Documents\Working\Personal\doshcalc\GenericControls\bin\Debug\WindowsFormsControlLibrary2.pdb
+C:\Users\Dan\Documents\Working\Personal\doshcalc\GenericControls\obj\Debug\GenericControls.csproj.AssemblyReference.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\GenericControls\obj\Debug\GenericControls.ControlHostTabPage.resources
+C:\Users\Dan\Documents\Working\Personal\doshcalc\GenericControls\obj\Debug\GenericControls.csproj.GenerateResource.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\GenericControls\obj\Debug\GenericControls.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\GenericControls\obj\Debug\WindowsFormsControlLibrary2.dll
+C:\Users\Dan\Documents\Working\Personal\doshcalc\GenericControls\obj\Debug\WindowsFormsControlLibrary2.pdb

@@ -1,0 +1,14 @@
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsCore\obj\Debug\AccountsCore.csproj.AssemblyReference.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsCore\obj\Debug\AccountsCore.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Documents\Working\Personal\AccountsCore.dll.config
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsCore\obj\Debug\AccountsCore.dll
+C:\Users\Dan\Documents\Working\Personal\doshcalc\AccountsCore\obj\Debug\AccountsCore.pdb
+C:\Users\Dan\Documents\Working\Personal\AccountsCore.dll
+C:\Users\Dan\Documents\Working\Personal\AccountsCore.pdb
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsCore\obj\Debug\AccountsCore.csproj.AssemblyReference.cache
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsCore\obj\Debug\AccountsCore.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsCore\obj\Debug\AccountsCore.dll
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsCore\obj\Debug\AccountsCore.pdb
+C:\Users\Dan\Documents\Working\Personal - Copy\AccountsCore.dll.config
+C:\Users\Dan\Documents\Working\Personal - Copy\AccountsCore.dll
+C:\Users\Dan\Documents\Working\Personal - Copy\AccountsCore.pdb

@@ -1,0 +1,302 @@
+!Type:Cat
+NBonus
+DBonus Income
+T
+R7360
+I
+^
+NCPP
+DCanada Pension Plan
+T
+I
+^
+NDiv Income
+DDividend Income
+T
+R4576
+I
+^
+NGift Received
+DGift Received
+T
+I
+^
+NInt Inc
+DInterest Income
+T
+R4592
+I
+^
+NInvest Inc
+DInvestment Income
+T
+I
+^
+NOld Age Pension
+DOld Age Pension
+T
+I
+^
+NOther Inc
+DOther Income
+T
+I
+^
+NSalary
+DSalary Income
+T
+R7360
+I
+^
+NAuto
+DAutomobile Expenses
+E
+^
+NAuto:Fuel
+DAuto Fuel
+E
+^
+NAuto:Loan
+DAuto Loan Payment
+E
+^
+NAuto:Service
+DAuto Service
+E
+^
+NBank Chrg
+DBank Charge
+E
+^
+NCharity
+DCharitable Donations
+T
+R4480
+E
+^
+NCharity:Cash
+DCash Contributions
+T
+R4480
+E
+^
+NCharity:Non-Cash
+DNon-Cash Contributions
+T
+R7760
+E
+^
+NChildcare
+DChildcare Expense
+E
+^
+NChristmas
+DChristmas Expenses
+E
+^
+NClothing
+DClothing
+E
+^
+NDining
+DDining Out
+E
+^
+NDues
+DDues
+E
+^
+NEducation
+DEducation
+E
+^
+NEntertain
+DEntertainment
+E
+^
+NGifts
+DGift Expenses
+T
+R4480
+E
+^
+NGroceries
+DGroceries
+E
+^
+NGST
+DGoods and Svcs Tax
+T
+E
+^
+NHome Repair
+DHome Repair & Maint.
+E
+^
+NHousehold
+DHousehold Misc. Exp
+E
+^
+NHousing
+DHousing
+E
+^
+NInsurance
+DInsurance
+E
+^
+NInt Exp
+DInterest Expense
+T
+E
+^
+NInvest Exp
+DInvestment Expense
+T
+R4512
+E
+^
+NMedical
+DMedical Expense
+T
+R4368
+E
+^
+NMedical:Doctor
+DDoctor & Dental Visits
+T
+R7744
+E
+^
+NMedical:Medicine
+DMedicine & Drugs
+T
+R4368
+E
+^
+NMisc
+DMiscellaneous
+E
+^
+NMort Int
+DMortgage Interest Exp
+T
+R4528
+E
+^
+NOther Exp
+DOther Expenses
+T
+E
+^
+NPST
+DProvincial Sales Tax
+T
+E
+^
+NRecreation
+DRecreation Expense
+E
+^
+NRRSP
+DReg Retirement Sav Plan
+E
+^
+NSubscriptions
+DSubscriptions
+E
+^
+NSupplies
+DSupplies
+E
+^
+NTax
+DTaxes
+T
+E
+^
+NTax:Fed
+DFederal Tax
+T
+R7376
+E
+^
+NTax:Medicare
+DMedicare Tax
+T
+R7680
+E
+^
+NTax:Other
+DMisc. Taxes
+T
+E
+^
+NTax:Prop
+DProperty Tax
+T
+R4416
+E
+^
+NTax:Soc Sec
+DSoc Sec Tax
+T
+R7392
+E
+^
+NTax:State
+DState Tax
+T
+R7424
+E
+^
+NTax Spouse
+DSpouse's Taxes
+T
+E
+^
+NTax Spouse:Fed
+DFederal Tax
+T
+R8112
+E
+^
+NTax Spouse:Medicare
+DMedicare Tax
+T
+R8160
+E
+^
+NTax Spouse:Soc Sec
+DSoc Sec Tax
+T
+R8128
+E
+^
+NTax Spouse:State
+DState Tax
+T
+R8176
+E
+^
+NTelephone
+DTelephone Expense
+E
+^
+NUIC
+DUnemploy. Ins. Commission
+T
+E
+^
+NUtilities
+DWater, Gas, Electric
+E
+^
+NUtilities:Gas & Electric
+DGas and Electricity
+E
+^
+NUtilities:Water
+DWater
+E
+^

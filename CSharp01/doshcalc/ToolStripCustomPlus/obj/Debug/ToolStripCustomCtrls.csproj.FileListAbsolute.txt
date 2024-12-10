@@ -1,0 +1,9 @@
+C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\bin\Debug\ToolStripCustomCtrls.dll
+C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\bin\Debug\ToolStripCustomCtrls.pdb
+C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.csproj.AssemblyReference.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.ToolStripCustom.resources
+C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.CustomizeToolStripForm.resources
+C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.csproj.GenerateResource.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.dll
+C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.pdb

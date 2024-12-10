@@ -1,0 +1,22 @@
+C:\Users\Dan\Documents\Working\Personal\doshcalc\QifApi\obj\Debug\QifApi.csproj.AssemblyReference.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\QifApi\obj\Debug\QifApi.Resources.resources
+C:\Users\Dan\Documents\Working\Personal\doshcalc\QifApi\obj\Debug\QifApi.csproj.GenerateResource.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\QifApi\obj\Debug\QifApi.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Documents\Working\Personal\doshcalc\QifApi\obj\Debug\QifApi.csproj.CopyComplete
+C:\Users\Dan\Documents\Working\Personal\doshcalc\QifApi\obj\Debug\QifApi.dll
+C:\Users\Dan\Documents\Working\Personal\doshcalc\QifApi\bin\Debug\QifApi.xml
+C:\Users\Dan\Documents\Working\Personal\doshcalc\QifApi\obj\Debug\QifApi.pdb
+C:\Users\Dan\Documents\Working\Personal\QifApi.dll
+C:\Users\Dan\Documents\Working\Personal\QifApi.pdb
+C:\Users\Dan\Documents\Working\Personal\QifApi.xml
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\QifApi\obj\Debug\QifApi.csproj.AssemblyReference.cache
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\QifApi\obj\Debug\QifApi.Resources.resources
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\QifApi\obj\Debug\QifApi.csproj.GenerateResource.cache
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\QifApi\obj\Debug\QifApi.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\QifApi\obj\Debug\QifApi.csproj.CopyComplete
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\QifApi\obj\Debug\QifApi.dll
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\QifApi\bin\Debug\QifApi.xml
+C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\QifApi\obj\Debug\QifApi.pdb
+C:\Users\Dan\Documents\Working\Personal - Copy\QifApi.dll
+C:\Users\Dan\Documents\Working\Personal - Copy\QifApi.pdb
+C:\Users\Dan\Documents\Working\Personal - Copy\QifApi.xml
