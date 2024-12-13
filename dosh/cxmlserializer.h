@@ -8,9 +8,8 @@
 class CXMLSerializer
 {
 public:
-    CXMLSerializer();
     static void importXML(QString path, AccountsData& acc);
-    static void exportXML(QString path, AccountsData& acc);
+    //static void exportXML(QString path, AccountsData& acc);
 private:
     static bool readTaxCode(QXmlStreamReader& reader, AccountsData& acc);
     static bool readProperties(QXmlStreamReader& reader, AccountsData& acc);

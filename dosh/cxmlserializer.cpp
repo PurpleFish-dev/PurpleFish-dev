@@ -3,20 +3,15 @@
 #include <QFile>
 #include <QMetaEnum>
 
-CXMLSerializer::CXMLSerializer()
-{
-
-}
-
 bool CXMLSerializer::readTaxCode(QXmlStreamReader& reader, AccountsData& accs)
 {
-    QUuid id;
+    Taxcode_Id id;
     QString name;
     bool obsolete = false;
 
     while(reader.readNextStartElement()){
             if(reader.name().toString() == "Id")
-                id = QUuid::fromString(reader.readElementText());
+                id = Taxcode_Id::fromString(reader.readElementText());
             else if(reader.name().toString() == "Name")
                 name = reader.readElementText();
             else if(reader.name().toString() == "Obsolete")
@@ -25,18 +20,18 @@ bool CXMLSerializer::readTaxCode(QXmlStreamReader& reader, AccountsData& accs)
                 reader.skipCurrentElement();
     }
 
-    return accs.taxcode_add(CTaxCode(name, obsolete), id);
+    return accs.taxcode_add(CTaxcode(name, obsolete), id);
 }
 
 bool CXMLSerializer::readProperties(QXmlStreamReader& reader, AccountsData& accs)
 {
-    QUuid id;
+    Property_Id id;
     QString name;
     bool obsolete = false;
 
     while(reader.readNextStartElement()){
             if(reader.name().toString() == "Id")
-                id = QUuid::fromString(reader.readElementText());
+                id = Property_Id::fromString(reader.readElementText());
             else if(reader.name().toString() == "Name")
                 name = reader.readElementText();
             else if(reader.name().toString() == "Obsolete")
@@ -50,13 +45,13 @@ bool CXMLSerializer::readProperties(QXmlStreamReader& reader, AccountsData& accs
 
 bool CXMLSerializer::readPayees(QXmlStreamReader& reader, AccountsData& accs)
 {
-    QUuid id;
+    Payee_Id id;
     QString name;
     bool obsolete = false;
 
     while(reader.readNextStartElement()) {
         if(reader.name().toString() == "Id")
-            id = QUuid::fromString(reader.readElementText());
+            id = Payee_Id::fromString(reader.readElementText());
         else if(reader.name().toString() == "Name")
             name = reader.readElementText();
         else if(reader.name().toString() == "Obsolete")
@@ -70,16 +65,16 @@ bool CXMLSerializer::readPayees(QXmlStreamReader& reader, AccountsData& accs)
 
 bool CXMLSerializer::readCategories(QXmlStreamReader& reader, AccountsData& accs)
 {
-    QUuid id;
+    Category_Id id;
     QString name;
     bool obsolete = false;
     bool income = false;
-    QUuid taxCode_id;
-    bool propertySpecific = false;
+    Taxcode_Id taxCode_id;
+    bool taxcodeSpecific = false;
 
     while(reader.readNextStartElement()) {
         if(reader.name().toString() == "Id")
-            id = QUuid::fromString(reader.readElementText());
+            id = Category_Id::fromString(reader.readElementText());
         else if(reader.name().toString() == "Name")
             name = reader.readElementText();
         else if(reader.name().toString() == "Obsolete")
@@ -87,19 +82,19 @@ bool CXMLSerializer::readCategories(QXmlStreamReader& reader, AccountsData& accs
         else if(reader.name().toString() == "Income")
             income = reader.readElementText() == "true" ? true : false;
         else if(reader.name().toString() == "TaxCodeId")
-            taxCode_id = QUuid::fromString(reader.readElementText());
+            taxCode_id = Taxcode_Id::fromString(reader.readElementText());
         else if(reader.name().toString() == "PropertySpecific")
-            propertySpecific = reader.readElementText() == "true" ? true : false;
+            taxcodeSpecific = reader.readElementText() == "true" ? true : false;
         else
             reader.skipCurrentElement();
     }
 
-    return accs.category_add(CCategory(name, obsolete, income, taxCode_id, propertySpecific), id);
+    return accs.category_add(CCategory(name, obsolete, income, taxCode_id, taxcodeSpecific), id);
 }
 
 bool CXMLSerializer::readAccounts(QXmlStreamReader& reader, AccountsData& accs)
 {
-    QUuid id;
+    Account_Id id;
     QString name;
     bool external = false;
     eAccType::AccType type = eAccType::AccType::Credit;
@@ -110,7 +105,7 @@ bool CXMLSerializer::readAccounts(QXmlStreamReader& reader, AccountsData& accs)
 
      while(reader.readNextStartElement()) {
         if(reader.name().toString() == "Id")
-            id = QUuid::fromString(reader.readElementText());
+            id = Account_Id::fromString(reader.readElementText());
         else if(reader.name().toString() == "Name")
             name = reader.readElementText();
         else if(reader.name().toString() == "Ownership")
@@ -153,13 +148,14 @@ bool CXMLSerializer::readEntries(QXmlStreamReader& reader, AccountsData& accs)
         Payee_Id payee_id;
         Category_Id category_id;
         Property_Id property_id;
+        Taxcode_Id taxcode_id;
         Account_Id account_id;
         Account_Id transfer_id;
         double amount;//todo QDecimal
 
     while(reader.readNextStartElement()) {
         if(reader.name().toString() == "Id")
-            id = QUuid::fromString(reader.readElementText());
+            id = Entry_Id::fromString(reader.readElementText());//todo
         else if(reader.name().toString() == "Description")
             description = reader.readElementText();
         else if(reader.name().toString() == "ImportDescription")
@@ -169,30 +165,31 @@ bool CXMLSerializer::readEntries(QXmlStreamReader& reader, AccountsData& accs)
         else if(reader.name().toString() == "RecieptNo")
             reciept_id = QUuid::fromString(reader.readElementText());
         else if(reader.name().toString() == "PayeeId")
-            payee_id = QUuid::fromString(reader.readElementText());
+            payee_id = Payee_Id::fromString(reader.readElementText());
         else if(reader.name().toString() == "CatagoryId")
-            category_id = QUuid::fromString(reader.readElementText());
+            category_id = Category_Id::fromString(reader.readElementText());
         else if(reader.name().toString() == "PropertyId")
-            property_id = QUuid::fromString(reader.readElementText());
+            property_id = Property_Id::fromString(reader.readElementText());
         else if(reader.name().toString() == "AccountId")
-            account_id = QUuid::fromString(reader.readElementText());
+            account_id = Account_Id::fromString(reader.readElementText());
         else if(reader.name().toString() == "transferAccountId")
-            transfer_id = QUuid::fromString(reader.readElementText());
+            transfer_id = Account_Id::fromString(reader.readElementText());
         else if(reader.name().toString() == "Amount")
             amount =  666.6; //todo
         else
             reader.skipCurrentElement();
     }
 
-    const CEntry ent = CEntry(id
+    const CEntry ent = CEntry(
     //, eEntryType::EntryType type
-    , description
+    description
     , importDescription
     , date
     , reciept_id
     , payee_id
     , category_id
     , property_id
+    , taxcode_id
     , account_id
     , transfer_id
     , amount);
