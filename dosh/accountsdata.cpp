@@ -22,9 +22,9 @@ bool AccountsData::taxcode_can_add(const CTaxcode taxcode) const
     return true;
 }
 
-bool AccountsData::taxcode_add(const CTaxcode taxcode, const Taxcode_Id id)
+bool AccountsData::taxcode_add(const CTaxcode taxcode)
 {
-    return taxcode_can_add(taxcode) && taxcodes.insert(std::pair<Taxcode_Id, CTaxcode>(id, taxcode)).second;
+    return taxcode_can_add(taxcode) && taxcodes.insert(std::pair<Taxcode_Id, CTaxcode>(taxcode.id, taxcode)).second;
 }
 
 bool AccountsData::taxcode_can_remove(Taxcode_Id id) const
@@ -45,18 +45,18 @@ bool AccountsData::taxcode_remove(Taxcode_Id id)
     return taxcode_can_remove(id) && (taxcodes.erase(id) == 1);
 }
 
-bool AccountsData::taxcode_can_replace(const Taxcode_Id id, const CTaxcode taxcode) const
+bool AccountsData::taxcode_can_replace(const CTaxcode taxcode) const
 {
     //the new tax code must have a name
     if (taxcode.name.isEmpty())
         return false;
 
     //the old tax code must exist
-    if(taxcodes.find(id) == taxcodes.end())
+    if(taxcodes.find(taxcode.id) == taxcodes.end())
         return false;
 
     //the new tax code must not be the same as the old tax code (No change)
-    if (taxcodes.at(id) == taxcode)
+    if (taxcodes.at(taxcode.id) == taxcode)
         return false;
 
     //todo
@@ -67,11 +67,11 @@ bool AccountsData::taxcode_can_replace(const Taxcode_Id id, const CTaxcode taxco
     return true;
 }
 
-bool AccountsData::taxcode_replace(Taxcode_Id id, CTaxcode taxcode)
+bool AccountsData::taxcode_replace(CTaxcode taxcode)
 {
-    return taxcode_can_replace(id, taxcode)
-     && (taxcodes.erase(id) == 1)
-     && taxcodes.insert(std::pair<Taxcode_Id, CTaxcode>(id, taxcode)).second;
+    return taxcode_can_replace(taxcode)
+     && (taxcodes.erase(taxcode.id) == 1)
+     && taxcodes.insert(std::pair<Taxcode_Id, CTaxcode>(taxcode.id, taxcode)).second;
 }
 
 bool AccountsData::property_can_add(const CProperty property) const
@@ -87,9 +87,9 @@ bool AccountsData::property_can_add(const CProperty property) const
     return true;
 }
 
-bool AccountsData::property_add(const CProperty property, const Property_Id id)
+bool AccountsData::property_add(const CProperty property)
 {
-    return property_can_add(property) && properties.insert(std::pair<Property_Id, CProperty>(id, property)).second;
+    return property_can_add(property) && properties.insert(std::pair<Property_Id, CProperty>(property.id, property)).second;
 }
 
 bool AccountsData::property_can_remove(const Property_Id id) const
@@ -110,25 +110,25 @@ bool AccountsData::property_remove(Property_Id id)
     return property_can_remove(id) && (properties.erase(id) == 1);
 }
 
-bool AccountsData::property_can_replace(const Property_Id id, const CProperty property) const
+bool AccountsData::property_can_replace(const CProperty property) const
 {
     //the new property must have a name
     if (property.name.isEmpty())
         return false;
 
     //the old property must exist
-    if (properties.find(id) == properties.end())
+    if (properties.find(property.id) == properties.end())
         return false;
 
     //the new property must not be the same as the old (No change)
-    if (properties.at(id) == property)
+    if (properties.at(property.id) == property)
         return false;
 
     //the new property must not have the same name as an existing property.
     const auto it = std::find_if(properties.begin(), properties.end(), [&property](const auto &pair){ return pair.second.name == property.name; });
-    if (it == properties.end()
+    //if (it == properties.end()
 
- == properties.end())
+ //== properties.end())
 
     //todo
     // //the new property must not have the same name as an existing property.
@@ -140,11 +140,11 @@ bool AccountsData::property_can_replace(const Property_Id id, const CProperty pr
 }
 
 
-bool AccountsData::property_replace(const Property_Id id, const CProperty property)
+bool AccountsData::property_replace(const CProperty property)
 {
-    return property_can_replace(id, property)
-     && (properties.erase(id) == 1)
-     && properties.insert(std::pair<Property_Id, CProperty>(id, property)).second;
+    return property_can_replace(property)
+     && (properties.erase(property.id) == 1)
+     && properties.insert(std::pair<Property_Id, CProperty>(property.id, property)).second;
 }
 
 bool AccountsData::payee_can_add(CPayee payee) const
@@ -160,9 +160,9 @@ bool AccountsData::payee_can_add(CPayee payee) const
     return true;
 }
 
-bool AccountsData::payee_add(CPayee payee, Payee_Id id)
+bool AccountsData::payee_add(CPayee payee)
 {
-    return payee_can_add(payee) && payees.insert(std::pair<Payee_Id, CPayee>(id, payee)).second;
+    return payee_can_add(payee) && payees.insert(std::pair<Payee_Id, CPayee>(payee.id, payee)).second;
 }
 
 bool AccountsData::payee_can_remove(Payee_Id id) const
@@ -182,17 +182,17 @@ bool AccountsData::payee_remove(const Payee_Id id)
     return payee_can_remove(id) && (payees.erase(id) == 1);
 }
 
-bool AccountsData::payee_can_replace(Payee_Id, CPayee) const
+bool AccountsData::payee_can_replace(CPayee) const
 {
     //todo
     return true;
 }
 
-bool AccountsData::payee_replace(const Payee_Id id, const CPayee payee)
+bool AccountsData::payee_replace(const CPayee payee)
 {
-    return payee_can_replace(id, payee)
-     && (payees.erase(id) == 1)
-     && payees.insert(std::pair<Payee_Id, CPayee>(id, payee)).second;
+    return payee_can_replace(payee)
+     && (payees.erase(payee.id) == 1)
+     && payees.insert(std::pair<Payee_Id, CPayee>(payee.id, payee)).second;
 }
 
 bool AccountsData::category_can_add(CCategory category) const
@@ -209,9 +209,9 @@ bool AccountsData::category_can_add(CCategory category) const
 	return !category.name.isEmpty() && (it == categories.end());
 }
 
-bool AccountsData::category_add(const CCategory category, const Category_Id id)
+bool AccountsData::category_add(const CCategory category)
 {
-    return category_can_add(category) && categories.insert(std::pair<Category_Id, CCategory>(id, category)).second;
+    return category_can_add(category) && categories.insert(std::pair<Category_Id, CCategory>(category.id, category)).second;
 }
 
 bool AccountsData::category_can_remove(Category_Id) const
@@ -225,17 +225,17 @@ bool AccountsData::category_remove(const Category_Id id)
     return category_can_remove(id) && (categories.erase(id) == 1);
 }
 
-bool AccountsData::category_can_replace(Category_Id, CCategory) const
+bool AccountsData::category_can_replace(CCategory) const
 {
     //todo
     return true;
 }
 
-bool AccountsData::category_replace(const Category_Id id, const CCategory category)
+bool AccountsData::category_replace(const CCategory category)
 {
-    return category_can_replace(id, category)
-    && (categories.erase(id) == 1)
-        && categories.insert(std::pair<Category_Id, CCategory>(id, category)).second;
+    return category_can_replace(category)
+    && (categories.erase(category.id) == 1)
+        && categories.insert(std::pair<Category_Id, CCategory>(category.id, category)).second;
 }
 
 bool AccountsData::account_can_add(CAccount acc) const
@@ -244,9 +244,9 @@ bool AccountsData::account_can_add(CAccount acc) const
 	return !acc.name.isEmpty() && it == accounts.end();
 }
 
-bool AccountsData::account_add(CAccount account, Account_Id id)
+bool AccountsData::account_add(CAccount account)
 {
-    return account_can_add(account) && accounts.insert(std::pair<Account_Id, CAccount>(id, account)).second;
+    return account_can_add(account) && accounts.insert(std::pair<Account_Id, CAccount>(account.id, account)).second;
 }
 
 bool AccountsData::account_can_remove(Account_Id) const
@@ -260,17 +260,17 @@ bool AccountsData::account_remove(const Account_Id id)
     return account_can_remove(id) && (accounts.erase(id) == 1);
 }
 
-bool AccountsData::account_can_replace(Account_Id, CAccount) const
+bool AccountsData::account_can_replace(CAccount) const
 {
     //todo
     return true;
 }
 
-bool AccountsData::account_replace(const Account_Id id, CAccount account)
+bool AccountsData::account_replace(CAccount account)
 {
-    return account_can_replace(id, account)
-    && (accounts.erase(id) == 1)
-        && accounts.insert(std::pair<Account_Id, CAccount>(id, account)).second;
+    return account_can_replace(account)
+    && (accounts.erase(account.id) == 1)
+        && accounts.insert(std::pair<Account_Id, CAccount>(account.id, account)).second;
 }
 
 bool AccountsData::entry_can_add(CEntry entry) const
@@ -318,9 +318,9 @@ bool AccountsData::entry_can_add(CEntry entry) const
 	return reasons.size() > 0 ? false : true;
 }
 
-bool AccountsData::entry_add(const CEntry entry, const Entry_Id id)
+bool AccountsData::entry_add(const CEntry entry)
 {
-    return entry_can_add(entry) && entries.insert(std::pair<Entry_Id, CEntry>(id, entry)).second;
+    return entry_can_add(entry) && entries.insert(std::pair<Entry_Id, CEntry>(entry.id, entry)).second;
 }
 
 bool AccountsData::entry_can_remove(Entry_Id) const
@@ -334,17 +334,17 @@ bool AccountsData::entry_remove(const Entry_Id id)
     return entry_can_remove(id) && (entries.erase(id) == 1);
 }
 
-bool AccountsData::entry_can_replace(Entry_Id, CEntry) const
+bool AccountsData::entry_can_replace(CEntry) const
 {
     //todo
     return true;
 }
 
-bool AccountsData::entry_replace(const Entry_Id id, const CEntry entry)
+bool AccountsData::entry_replace(const CEntry entry)
 {
-    return entry_can_replace(id, entry)
-    && (entries.erase(id) == 1)
-        && entries.insert(std::pair<Entry_Id, CEntry>(id, entry)).second;
+    return entry_can_replace(entry)
+    && (entries.erase(entry.id) == 1)
+        && entries.insert(std::pair<Entry_Id, CEntry>(entry.id, entry)).second;
 }
 
 

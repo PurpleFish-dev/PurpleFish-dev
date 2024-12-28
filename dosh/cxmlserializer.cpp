@@ -20,7 +20,7 @@ bool CXMLSerializer::readTaxCode(QXmlStreamReader& reader, AccountsData& accs)
                 reader.skipCurrentElement();
     }
 
-    return accs.taxcode_add(CTaxcode(name, obsolete), id);
+    return accs.taxcode_add(CTaxcode(name, obsolete, id));
 }
 
 bool CXMLSerializer::readProperties(QXmlStreamReader& reader, AccountsData& accs)
@@ -40,7 +40,8 @@ bool CXMLSerializer::readProperties(QXmlStreamReader& reader, AccountsData& accs
                 reader.skipCurrentElement();
     }
 
-    return accs.property_add(CProperty(name, obsolete), id);
+    return false;
+    //return accs.property_add(CProperty(name, obsolete, id));
 }
 
 bool CXMLSerializer::readPayees(QXmlStreamReader& reader, AccountsData& accs)
@@ -60,7 +61,8 @@ bool CXMLSerializer::readPayees(QXmlStreamReader& reader, AccountsData& accs)
             reader.skipCurrentElement();
     }
 
-    return accs.payee_add(CPayee(name, obsolete), id);
+    return false;
+    //return accs.payee_add(CPayee(name, obsolete, id));
 }
 
 bool CXMLSerializer::readCategories(QXmlStreamReader& reader, AccountsData& accs)
@@ -89,7 +91,7 @@ bool CXMLSerializer::readCategories(QXmlStreamReader& reader, AccountsData& accs
             reader.skipCurrentElement();
     }
 
-    return accs.category_add(CCategory(name, obsolete, income, taxCode_id, taxcodeSpecific), id);
+    return false; //accs.category_add(CCategory(name, obsolete, income, taxCode_id, taxcodeSpecific, id));
 }
 
 bool CXMLSerializer::readAccounts(QXmlStreamReader& reader, AccountsData& accs)
@@ -134,7 +136,7 @@ bool CXMLSerializer::readAccounts(QXmlStreamReader& reader, AccountsData& accs)
             reader.skipCurrentElement();
     }
 
-    return accs.account_add(CAccount(name, external, type, hidden, lock, locked_until, reconciled_on), id);
+     return false; //accs.account_add(CAccount(name, external, type, hidden, lock, locked_until, reconciled_on, id));
 }
 
 bool CXMLSerializer::readEntries(QXmlStreamReader& reader, AccountsData& accs)
@@ -181,7 +183,6 @@ bool CXMLSerializer::readEntries(QXmlStreamReader& reader, AccountsData& accs)
     }
 
     const CEntry ent = CEntry(
-    //, eEntryType::EntryType type
     description
     , importDescription
     , date
@@ -192,9 +193,10 @@ bool CXMLSerializer::readEntries(QXmlStreamReader& reader, AccountsData& accs)
     , taxcode_id
     , account_id
     , transfer_id
-    , amount);
+    , amount
+    , id);
 
-    return accs.entry_add(CEntry(ent), id);
+    return accs.entry_add(ent);
 }
 
  void CXMLSerializer::importXML(QString path, AccountsData& accs)

@@ -10,6 +10,8 @@ QtApplication {
     ]
 
     files: [
+        "accounts_core.cpp",
+        "accounts_core.h",
         "main.cpp",
         "mainwindow.cpp",
         "mainwindow.h",
@@ -19,7 +21,10 @@ QtApplication {
         "ctaxcode.cpp",
         "ctaxcode.h",
         "cxmlserializer.cpp",
-        "cxmlserializer.h"
+        "cxmlserializer.h",
+        "taxcodes_dlg.cpp",
+        "taxcodes_dlg.h",
+        "taxcodes_dlg.ui",
     ]
 
     install: true

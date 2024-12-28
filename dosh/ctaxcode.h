@@ -16,8 +16,11 @@ public:
     bool isNull() const { return value_.isNull(); }
 
     bool operator==(const Id& rhs) const { return value_ == rhs.value_; }
+    bool operator!=(const Id& rhs) const { return value_ != rhs.value_; }
 
     static Id fromString(QAnyStringView string) noexcept { return Id(QUuid::fromString(string)); }
+
+    static Id create() { Id id; id.value_ = QUuid::createUuid(); return id; }
 
 private:
     Id(const QUuid& value) : value_(value) { }
@@ -66,44 +69,47 @@ public:
 class CTaxcode
 {
 public:
-    CTaxcode(const CTaxcode& arg) : name(arg.name), obsolete(arg.obsolete) { }
-    CTaxcode(QString name, bool obsolete) : name(name.trimmed()), obsolete(obsolete) { }
+    CTaxcode(QString name, bool obsolete) : name(name.trimmed()), obsolete(obsolete), id(Taxcode_Id::create()) { }
     bool operator==(const CTaxcode& rhs) const { return (name == rhs.name) && (obsolete == rhs.obsolete); }
 
 	const QString name;
 	const bool obsolete;
+    const Taxcode_Id id;
+
+    CTaxcode(QString name, bool obsolete, Taxcode_Id id) : name(name.trimmed()), obsolete(obsolete), id(id) { }
 };
 
 class CProperty
 {
 public:
-	CProperty(const CProperty& arg) : name(arg.name), obsolete(arg.obsolete) { }
-	CProperty(QString name, bool obsolete) : name(name.trimmed()), obsolete(obsolete) { }
+    CProperty(QString name, bool obsolete) : name(name.trimmed()), obsolete(obsolete), id(Property_Id::create()) { }
     bool operator==(const CProperty& rhs) const { return (name == rhs.name) && (obsolete == rhs.obsolete); }
 
 	const QString name;
 	const bool obsolete;
+    const Property_Id id;
+
+    CProperty(QString name, bool obsolete, Property_Id id) : name(name.trimmed()), obsolete(obsolete), id(id) { }
 };
 
 class CPayee
 {
 public:
-	CPayee(const CPayee& arg) : name(arg.name), obsolete(arg.obsolete) { }
-	CPayee(QString name, bool obsolete) : name(name.trimmed()), obsolete(obsolete) { }
+    CPayee(QString name, bool obsolete) : name(name.trimmed()), obsolete(obsolete), id(Payee_Id::create()) { }
     bool operator==(const CPayee& rhs) const { return (name == rhs.name) && (obsolete == rhs.obsolete); }
 
 	const QString name;
 	const bool obsolete;
+    const Payee_Id id;
+
+    CPayee(QString name, bool obsolete, Payee_Id id) : name(name.trimmed()), obsolete(obsolete), id(id) { }
 };
 
 class CCategory
 {
 public:
-	CCategory(const CCategory& arg)
-        : name(arg.name), obsolete(arg.obsolete), income(arg.income), taxcode_id(arg.taxcode_id), taxcode_specific(arg.taxcode_specific) { }
-
     CCategory(QString name, bool obsolete, bool income, Taxcode_Id taxcode_id, bool taxcode_specific)
-        : name(name.trimmed()), obsolete(obsolete), income(income), taxcode_id(taxcode_id), taxcode_specific(taxcode_specific) { }
+        : name(name.trimmed()), obsolete(obsolete), income(income), taxcode_id(taxcode_id), taxcode_specific(taxcode_specific), id(Category_Id::create()) { }
 
     bool operator==(const CCategory& rhs) const { return (name == rhs.name) && (obsolete == rhs.obsolete)&& (income == rhs.income)&& (taxcode_id == rhs.taxcode_id)&& (taxcode_specific == rhs.taxcode_specific); }
 
@@ -112,16 +118,17 @@ public:
 	const bool income;
     const Taxcode_Id taxcode_id;
     const bool taxcode_specific;
+    const Category_Id id;
+
+    CCategory(QString name, bool obsolete, bool income, Taxcode_Id taxcode_id, bool taxcode_specific, Category_Id id)
+        : name(name.trimmed()), obsolete(obsolete), income(income), taxcode_id(taxcode_id), taxcode_specific(taxcode_specific), id(id) { }
 };
 
 class CAccount
 {
 public:
-	CAccount(const CAccount& arg)
-        : name(arg.name), external(arg.external), type(arg.type), hidden(arg.hidden), lock(arg.lock), locked_until(arg.locked_until), reconciled_on(arg.reconciled_on) { }
-
     CAccount(QString name, bool external, eAccType::AccType type, bool hidden, eAccLock::AccLock lock, QDateTime locked_until, QDateTime reconciled_on)
-        : name(name.trimmed()), external(external), type(type), hidden(hidden), lock(lock), locked_until(locked_until), reconciled_on(reconciled_on) { }
+        : name(name.trimmed()), external(external), type(type), hidden(hidden), lock(lock), locked_until(locked_until), reconciled_on(reconciled_on), id(Account_Id::create()) { }
 
     bool operator==(const CAccount& rhs) const
     {
@@ -141,26 +148,16 @@ public:
     const eAccLock::AccLock lock;
     const QDateTime locked_until;
     const QDateTime reconciled_on;
+    const Account_Id id;
+
+    CAccount(QString name, bool external, eAccType::AccType type, bool hidden, eAccLock::AccLock lock, QDateTime locked_until, QDateTime reconciled_on, Account_Id id)
+        : name(name.trimmed()), external(external), type(type), hidden(hidden), lock(lock), locked_until(locked_until), reconciled_on(reconciled_on), id(id) { }
 };
 
 class CEntry
 {
 public:
-	CEntry(const CEntry& arg)
-        : description(arg.description)
-        , importDescription(arg.description)
-        , date(arg.date)
-        , reciept_id(arg.reciept_id)
-        , payee_id(arg.payee_id)
-        , category_id(arg.category_id)
-        , property_id(arg.property_id)
-        , taxcode_id(arg.taxcode_id)
-        , account_id(arg.account_id)
-        , transfer_id(arg.transfer_id)
-        , amount(arg.amount) { }
-
     CEntry(
-    //, eEntryType::EntryType type
     QString description
     , QString importDescription
     , QDateTime date
@@ -182,7 +179,9 @@ public:
         , taxcode_id(taxcode_id)
         , account_id(account_id)
         , transfer_id(transfer_id)
-        , amount(amount) { }
+        , amount(amount)
+        , id(Entry_Id::create())
+        , deserialised(false) { }
 
     //eEntryType::EntryType type;
 	const QString description;
@@ -196,6 +195,35 @@ public:
 	const Account_Id account_id;
 	const Account_Id transfer_id;
 	const double amount;//todo QDecimal
+    const Entry_Id id;
+    const bool deserialised;
+
+    CEntry(
+        QString description
+        , QString importDescription
+        , QDateTime date
+        , QUuid reciept_id
+        , Payee_Id payee_id
+        , Category_Id category_id
+        , Property_Id property_id
+        , Taxcode_Id taxcode_id
+        , Account_Id account_id
+        , Account_Id transfer_id
+        , double amount
+        , Entry_Id id)
+        : description(description)
+        , importDescription(description)
+        , date(date)
+        , reciept_id(reciept_id)
+        , payee_id(payee_id)
+        , category_id(category_id)
+        , property_id(property_id)
+        , taxcode_id(taxcode_id)
+        , account_id(account_id)
+        , transfer_id(transfer_id)
+        , amount(amount)
+        , id(id)
+        , deserialised(true) { }
 };
 
 #endif
