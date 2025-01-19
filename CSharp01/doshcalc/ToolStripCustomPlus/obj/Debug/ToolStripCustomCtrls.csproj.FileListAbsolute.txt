@@ -7,3 +7,12 @@ C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\T
 C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.csproj.CoreCompileInputs.cache
 C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.dll
 C:\Users\Dan\Documents\Working\Personal\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.pdb
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ToolStripCustomPlus\bin\Debug\ToolStripCustomCtrls.dll
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ToolStripCustomPlus\bin\Debug\ToolStripCustomCtrls.pdb
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.csproj.AssemblyReference.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.ToolStripCustom.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.CustomizeToolStripForm.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.csproj.GenerateResource.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.csproj.CoreCompileInputs.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.dll
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ToolStripCustomPlus\obj\Debug\ToolStripCustomCtrls.pdb

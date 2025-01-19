@@ -20,3 +20,14 @@ C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\QifApi\obj\Debug\QifApi.
 C:\Users\Dan\Documents\Working\Personal - Copy\QifApi.dll
 C:\Users\Dan\Documents\Working\Personal - Copy\QifApi.pdb
 C:\Users\Dan\Documents\Working\Personal - Copy\QifApi.xml
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\QifApi\obj\Debug\QifApi.csproj.AssemblyReference.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\QifApi\obj\Debug\QifApi.Resources.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\QifApi\obj\Debug\QifApi.csproj.GenerateResource.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\QifApi\obj\Debug\QifApi.csproj.CoreCompileInputs.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\QifApi\obj\Debug\QifApi.csproj.Up2Date
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\QifApi\obj\Debug\QifApi.dll
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\QifApi\bin\Debug\QifApi.xml
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\QifApi\obj\Debug\QifApi.pdb
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\QifApi.dll
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\QifApi.pdb
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\QifApi.xml

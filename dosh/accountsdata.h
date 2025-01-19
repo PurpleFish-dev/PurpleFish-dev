@@ -23,6 +23,8 @@ public:
         return result;
     }
 
+    CTaxcode get_taxcode(Taxcode_Id id) const { return taxcodes.find(id)->second; }
+
     bool taxcode_can_add(CTaxcode) const;
     bool taxcode_add(CTaxcode);
     bool taxcode_can_remove(Taxcode_Id) const;

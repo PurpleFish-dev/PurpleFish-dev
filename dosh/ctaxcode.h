@@ -69,14 +69,12 @@ public:
 class CTaxcode
 {
 public:
-    CTaxcode(QString name, bool obsolete) : name(name.trimmed()), obsolete(obsolete), id(Taxcode_Id::create()) { }
+    CTaxcode(QString name, bool obsolete, Taxcode_Id id = Taxcode_Id::create()) : name(name.trimmed()), obsolete(obsolete), id(id) { }
     bool operator==(const CTaxcode& rhs) const { return (name == rhs.name) && (obsolete == rhs.obsolete); }
 
-	const QString name;
-	const bool obsolete;
-    const Taxcode_Id id;
-
-    CTaxcode(QString name, bool obsolete, Taxcode_Id id) : name(name.trimmed()), obsolete(obsolete), id(id) { }
+    QString name;
+    bool obsolete;
+    Taxcode_Id id;
 };
 
 class CProperty

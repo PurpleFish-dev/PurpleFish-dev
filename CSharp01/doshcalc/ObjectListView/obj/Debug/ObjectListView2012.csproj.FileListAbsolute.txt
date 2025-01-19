@@ -20,3 +20,14 @@ C:\Users\Dan\Documents\Working\Personal\doshcalc\ObjectListView\obj\Debug\Object
 C:\Users\Dan\Documents\Working\Personal\ObjectListView.dll
 C:\Users\Dan\Documents\Working\Personal\ObjectListView.pdb
 C:\Users\Dan\Documents\Working\Personal\ObjectListView.XML
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ObjectListView\obj\Debug\ObjectListView2012.csproj.AssemblyReference.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ObjectListView\obj\Debug\BrightIdeasSoftware.Properties.Resources.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ObjectListView\obj\Debug\BrightIdeasSoftware.ColumnSelectionForm.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ObjectListView\obj\Debug\ObjectListView2012.csproj.GenerateResource.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ObjectListView\obj\Debug\ObjectListView2012.csproj.CoreCompileInputs.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ObjectListView\obj\Debug\ObjectListView.dll
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ObjectListView\bin\Debug\ObjectListView.XML
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\ObjectListView\obj\Debug\ObjectListView.pdb
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\ObjectListView.dll
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\ObjectListView.pdb
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\ObjectListView.XML

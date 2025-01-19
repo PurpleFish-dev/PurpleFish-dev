@@ -38,6 +38,9 @@
    <property name="text">
     <string>Add</string>
    </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
   </widget>
   <widget class="QPushButton" name="btn_Delete">
    <property name="geometry">
@@ -50,6 +53,35 @@
    </property>
    <property name="text">
     <string>Delete</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>271</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="undoRedoEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="lineWrapMode">
+    <enum>QPlainTextEdit::LineWrapMode::NoWrap</enum>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
    </property>
   </widget>
  </widget>

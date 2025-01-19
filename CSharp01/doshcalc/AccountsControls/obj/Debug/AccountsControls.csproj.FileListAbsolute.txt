@@ -66,3 +66,37 @@ C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsControls\obj\Deb
 C:\Users\Dan\Documents\Working\Personal - Copy\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.pdb
 C:\Users\Dan\Documents\Working\Personal - Copy\WindowsFormsControlLibrary1.dll
 C:\Users\Dan\Documents\Working\Personal - Copy\WindowsFormsControlLibrary1.pdb
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\AccountsControls.csproj.AssemblyReference.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.AccountEditCtrl.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.AccountListView.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.CatagoryEditCtrl.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.CatagoryListView.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.ReconcileListView.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.ScheduledTransactionsDlg.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.Form2.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.moveEntryFrm.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.frmMultiEdit.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.Properties.Resources.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.QifBasicTransactionTranslatorCtrl.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.QifBasicTransactionListView.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.EntryListView.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsApplication6.ImportWizard.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.PayeeEditCtrl.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.PayeeListView.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.PropertyEditCtrl.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.PropertyListView.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.QifDateFormatSelectionCtrl.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.QifItemSelectionCtrl.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.ReconcileFrm.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.TaxCodeEditCtrl.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.TaxCodeListView.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.EntryEditCtrl.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.TimeChartFrm.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.UserControl1.resources
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\AccountsControls.csproj.GenerateResource.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\AccountsControls.csproj.CoreCompileInputs.cache
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\Accounts.D0ACD050.Up2Date
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.dll
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\doshcalc\AccountsControls\obj\Debug\WindowsFormsControlLibrary1.pdb
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\WindowsFormsControlLibrary1.dll
+C:\Users\DanB\Documents\Working\PurpleFish\PurpleFish-dev\CSharp01\WindowsFormsControlLibrary1.pdb
